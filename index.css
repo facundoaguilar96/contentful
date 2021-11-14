@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.portfolio {
+}
+.portfolio-title {
+  font-size: 38px;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+.porfolio-descripcion {
+  margin: 0 auto;
+  font-size: 24px;
+  margin: 7px 0 0 0;
+  text-align: center;
+}
+.portfolio-content {
+  margin-top: 20px;
+  padding: 40px;
+  display: grid;
+  gap: 40px;
+}
+.portfolio-card {
+  border: solid 2px black;
+  border-radius: 4px;
+}
+.porfolio-img {
+  object-fit: cover;
+  height: 255px;
+  width: 100%;
+}
+.portfolio-card-content {
+  padding: 20px;
+}
+.portfolio-card-title {
+  font-size: 30px;
+  margin: 0;
+}
+.porfolio-card-text {
+  font-size: 18px;
+  margin: 0;
+}
+.portfolio-card-link {
+  color: #51aff3;
+  text-align: right;
+  display: block;
+  margin-top: 20px;
+}
+
+.precio {
+  display: inline;
+}
+
+.portfolio-card-precio {
+  display: inline;
+}

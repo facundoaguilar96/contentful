@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script async src="./index.js"></script>
+  </head>
+  <body>
+    <section class="portfolio">
+      <h2 class="portfolio-title">MercadoNoLibre</h2>
+      <p class="porfolio-descripcion">Productos a la venta</p>
+      <div class="portfolio-content"></div>
+    </section>
+    <template id="portfolio-card-template">
+      <div class="portfolio-card">
+        <img
+          src="https://interactive-examples.mdn.mozilla.net/media/examples/plumeria.jpg"
+          alt=""
+          class="porfolio-img"
+        />
+        <div class="portfolio-card-content">
+          <h4 class="portfolio-card-title">un producto</h4>
+          <p class="porfolio-card-text">
+            esta es la descripcion de este gran producto
+          </p>
+          <p class="portfolio-card-precio">Precio: <p class="precio"></p></p>
+          <a href="https://www.google.com.ar/webhp?hl=es" class="portfolio-card-link">ver más</a>
+        </div>
+      </div>
+    </template>
+  </body>
+</html>
